@@ -7,7 +7,7 @@
 
         public List<Planet> planetList = new List<Planet>();
 
-        public new Position position { get; }
+        public new Position position { get; set}
         public Star()
 
         { this.position = new Position(0, 0); }

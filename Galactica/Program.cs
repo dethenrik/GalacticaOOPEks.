@@ -12,6 +12,7 @@ namespace Galactica
             {
                 Id = 1,
                 Name = "Sun",
+                position = (new SpaceObjects.Position() { X = 0, Y = 0 }),
                 Type = StarType.YellowDwarf.ToString(),
                 Temperature = 5500
 
@@ -27,7 +28,6 @@ namespace Galactica
                 Diameter = 4880000,
                 RotationPeriod = 1407,
                 RevolutionPeriod = 176,
-
             };
 
 
@@ -76,7 +76,6 @@ namespace Galactica
                 Diameter = 139820000,
                 RotationPeriod = 10,
                 RevolutionPeriod = 4300,
-
             };
 
 
